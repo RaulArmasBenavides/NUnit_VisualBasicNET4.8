@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ConsoleApp1\TestingGenericSolutionnNET4.vbproj" />
+    <ProjectReference Include="..\TestingGenericSolutionnNET4\TestingGenericSolutionnNET4.vbproj" />
   </ItemGroup>
 
 </Project>
