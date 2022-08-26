@@ -153,4 +153,12 @@ Public Class Bw2
         Return "SUCCESS"
     End Function
 
+
+    Public Function Convert(ByVal originalTitle As String) As String
+        If originalTitle.Length > 73 Then
+            originalTitle = originalTitle.Substring(0, 76) & "..."
+        End If
+        Return originalTitle
+    End Function
+
 End Class
